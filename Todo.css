@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("wp278089.jpg");
+    image-rendering: auto;
+    image-orientation: from-image;
+   
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.task-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.task-category {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.task {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.task-meta {
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+.high-priority {
+    border-left: 4px solid #ff5733;
+}
+
+.medium-priority {
+    border-left: 4px solid #ffc733;
+}
+
+.low-priority {
+    border-left: 4px solid #33ff57;
+}
